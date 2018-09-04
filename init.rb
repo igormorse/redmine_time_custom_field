@@ -6,6 +6,6 @@ Redmine::Plugin.register :time_custom_field do
   url 'http://example.com/path/to/plugin'
   author_url 'http://example.com/about'
 
-  # require 'time_custom_field/hooks/issue_form_hook'
+  require 'time_custom_field/hooks/issue_form_hook'
   require 'time_custom_field/patches/field_format_patch'
 end
